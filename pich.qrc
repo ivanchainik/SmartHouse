@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/picha">
+        <file>Pichures/LoginScreen.png</file>
+        <file>Pichures/RegistryCreen.png</file>
+        <file>Pichures/MenuScreen.png</file>
+        <file>Pichures/MenuScreenUser.png</file>
+        <file>Pichures/cond.png</file>
+        <file>Pichures/devais.png</file>
+        <file>Pichures/add_room.png</file>
+        <file>Pichures/chang_house.png</file>
+        <file>Pichures/house.png</file>
+        <file>Pichures/work_dev.png</file>
+        <file>Pichures/chang_room.png</file>
+        <file>Pichures/work_sen.png</file>
+        <file>Pichures/info_house_o.png</file>
+        <file>Pichures/money.png</file>
+        <file>Pichures/change_dev.png</file>
+        <file>Pichures/del_room.png</file>
+        <file>Pichures/give_admin.png</file>
+        <file>Pichures/condl.png</file>
+        <file>Pichures/change_pass.png</file>
+        <file>Pichures/info_dev.png</file>
+        <file>Pichures/change_tarife.png</file>
+        <file>Pichures/show_tarif.png</file>
+        <file>Pichures/work_counter.png</file>
+        <file>Pichures/work_sen2.png</file>
+        <file>Pichures/work_sen3.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cond</class>
+ <widget class="QWidget" name="cond">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>424</width>
+    <height>135</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="temp">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>25</y>
+     <width>251</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+color:rgb(238, 238, 236);</string>
+   </property>
+   <property name="frame">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="enter">
+   <property name="geometry">
+    <rect>
+     <x>46</x>
+     <y>87</y>
+     <width>172</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>248</x>
+     <y>87</y>
+     <width>172</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="warning">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>55</y>
+     <width>331</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>424</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="pich.qrc">:/picha/Pichures/condl.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>temp</zorder>
+  <zorder>enter</zorder>
+  <zorder>back</zorder>
+  <zorder>warning</zorder>
+ </widget>
+ <resources>
+  <include location="pich.qrc"/>
+ </resources>
+ <connections/>
+</ui>

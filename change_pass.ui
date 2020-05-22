@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>change_pass</class>
+ <widget class="QWidget" name="change_pass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>292</width>
+    <height>169</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="pass1">
+   <property name="geometry">
+    <rect>
+     <x>133</x>
+     <y>21</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+color:rgb(238, 238, 236);</string>
+   </property>
+   <property name="frame">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pass2">
+   <property name="geometry">
+    <rect>
+     <x>133</x>
+     <y>44</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+color:rgb(238, 238, 236);</string>
+   </property>
+   <property name="frame">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>4</x>
+     <y>109</y>
+     <width>140</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>149</x>
+     <y>109</y>
+     <width>140</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Warning">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>91</y>
+     <width>221</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>292</width>
+     <height>169</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="pich.qrc">:/picha/Pichures/change_pass.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>pass1</zorder>
+  <zorder>pass2</zorder>
+  <zorder>back</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>Warning</zorder>
+ </widget>
+ <resources>
+  <include location="pich.qrc"/>
+ </resources>
+ <connections/>
+</ui>

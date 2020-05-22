@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>show_tarif</class>
+ <widget class="QWidget" name="show_tarif">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>565</width>
+    <height>419</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="electstr">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>82</y>
+     <width>170</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(238, 238, 236);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="waterstr">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>123</y>
+     <width>170</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(238, 238, 236);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="gasstr">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>164</y>
+     <width>170</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(238, 238, 236);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="dayofpaystr">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>200</y>
+     <width>170</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(238, 238, 236);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="daytopaystr">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>236</y>
+     <width>170</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(238, 238, 236);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>222</x>
+     <y>321</y>
+     <width>140</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>565</width>
+     <height>419</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="pich.qrc">:/picha/Pichures/show_tarif.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>electstr</zorder>
+  <zorder>waterstr</zorder>
+  <zorder>gasstr</zorder>
+  <zorder>dayofpaystr</zorder>
+  <zorder>daytopaystr</zorder>
+  <zorder>back</zorder>
+ </widget>
+ <resources>
+  <include location="pich.qrc"/>
+ </resources>
+ <connections/>
+</ui>

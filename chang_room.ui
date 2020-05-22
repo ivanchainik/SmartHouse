@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Chang_room</class>
+ <widget class="QWidget" name="Chang_room">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>839</width>
+    <height>302</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListWidget" name="rooms">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>331</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-top-color: rgb(92, 53, 102);
+selection-background-color: rgb(173, 127, 168);
+color: rgb(238, 238, 236);
+background-color: rgba(173, 127, 168,0.1);</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="bath_type">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>53</y>
+     <width>211</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="kitch_type">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>79</y>
+     <width>96</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="Liv_type">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>104</y>
+     <width>96</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="arealine">
+   <property name="geometry">
+    <rect>
+     <x>577</x>
+     <y>140</y>
+     <width>201</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0,0,0,0);
+color:rgb(238, 238, 236);</string>
+   </property>
+   <property name="frame">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Enter">
+   <property name="geometry">
+    <rect>
+     <x>445</x>
+     <y>218</y>
+     <width>173</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>632</x>
+     <y>218</y>
+     <width>173</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="warning">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>170</y>
+     <width>361</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>839</width>
+     <height>302</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="pich.qrc">:/picha/Pichures/chang_room.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label_4</zorder>
+  <zorder>rooms</zorder>
+  <zorder>bath_type</zorder>
+  <zorder>kitch_type</zorder>
+  <zorder>Liv_type</zorder>
+  <zorder>arealine</zorder>
+  <zorder>Enter</zorder>
+  <zorder>back</zorder>
+  <zorder>warning</zorder>
+ </widget>
+ <resources>
+  <include location="pich.qrc"/>
+ </resources>
+ <connections/>
+</ui>

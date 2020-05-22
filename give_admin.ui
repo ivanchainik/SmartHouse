@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Give_admin</class>
+ <widget class="QWidget" name="Give_admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>434</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="day">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>370</y>
+     <width>143</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="otday">
+   <property name="geometry">
+    <rect>
+     <x>154</x>
+     <y>370</y>
+     <width>143</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>302</x>
+     <y>370</y>
+     <width>143</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="Users">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>431</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-top-color: rgb(255, 255, 255);
+selection-background-color: rgb(173, 127, 168);
+color: rgb(238, 238, 236);
+background-color: rgba(173, 127, 168,0.1);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Warning">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>344</y>
+     <width>431</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>450</width>
+     <height>434</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="pich.qrc">:/picha/Pichures/give_admin.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>day</zorder>
+  <zorder>otday</zorder>
+  <zorder>back</zorder>
+  <zorder>Users</zorder>
+  <zorder>Warning</zorder>
+ </widget>
+ <resources>
+  <include location="pich.qrc"/>
+ </resources>
+ <connections/>
+</ui>

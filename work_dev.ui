@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>work_dev</class>
+ <widget class="QWidget" name="work_dev">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>886</width>
+    <height>397</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QListWidget" name="roomlist">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>270</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-top-color: rgb(92, 53, 102);
+selection-background-color: rgb(173, 127, 168);
+color: rgb(238, 238, 236);
+background-color: rgba(173, 127, 168,0.1);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>0</y>
+     <width>91</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Список комнат:</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="devlist">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>30</y>
+     <width>270</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Acrom Medium</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-top-color: rgb(92, 53, 102);
+selection-background-color: rgb(173, 127, 168);
+color: rgb(238, 238, 236);
+background-color: rgba(173, 127, 168,0.1);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>0</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Список девайсов:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="warning">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>375</y>
+     <width>550</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="add_dev">
+   <property name="geometry">
+    <rect>
+     <x>645</x>
+     <y>19</y>
+     <width>172</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="on_true">
+   <property name="geometry">
+    <rect>
+     <x>645</x>
+     <y>72</y>
+     <width>172</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="on_false">
+   <property name="geometry">
+    <rect>
+     <x>645</x>
+     <y>128</y>
+     <width>172</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="change_dev">
+   <property name="geometry">
+    <rect>
+     <x>645</x>
+     <y>182</y>
+     <width>172</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="info_dev">
+   <property name="geometry">
+    <rect>
+     <x>645</x>
+     <y>237</y>
+     <width>172</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_pr">
+   <property name="geometry">
+    <rect>
+     <x>645</x>
+     <y>290</y>
+     <width>172</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>645</x>
+     <y>346</y>
+     <width>172</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>886</width>
+     <height>397</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="pich.qrc">:/picha/Pichures/work_dev.png</pixmap>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>roomlist</zorder>
+  <zorder>label</zorder>
+  <zorder>devlist</zorder>
+  <zorder>label_2</zorder>
+  <zorder>warning</zorder>
+  <zorder>add_dev</zorder>
+  <zorder>on_true</zorder>
+  <zorder>on_false</zorder>
+  <zorder>change_dev</zorder>
+  <zorder>info_dev</zorder>
+  <zorder>delete_pr</zorder>
+  <zorder>back</zorder>
+ </widget>
+ <resources>
+  <include location="pich.qrc"/>
+ </resources>
+ <connections/>
+</ui>
